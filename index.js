@@ -1,4 +1,4 @@
-import { test } from './Recursion/combination-sum-1';
-test()
-// const combinationSum1 = require('./Recursion/combination-sum-1');
-// const combinationSum2 = require('./Recursion/combination-sum-2');
+import { combinationOne } from './Recursion/combination-sum-1';
+var items = combinationOne([2,3,6,7], 7);
+const opElement = document.getElementById("output");
+opElement.innerHTML  = items;
