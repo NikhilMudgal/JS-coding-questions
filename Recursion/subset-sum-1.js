@@ -7,10 +7,7 @@ function subsetSum(index, sum, arr) {
         subsets.push(sum);
         return;
     }
-
-    sum  = sum + A[index];
-    subsetSum(index + 1, sum, arr);
-    sum = sum - A[index];
+    subsetSum(index + 1, sum + A[index], arr);
     subsetSum(index + 1, sum, arr)
 }
 
