@@ -8,10 +8,13 @@ import { subsetSumOne } from './Recursion/2.subset-sum/subset-sum-1';
 // var items = subsetSumOne([3,1,2]);
 
 import { subSetSumTwo } from './Recursion/2.subset-sum/subset-sum-2';
+import { getAllPermutationsTwo } from './Recursion/3.all-permutations/all-permutation-1(2)';
 // var items = subSetSumTwo([1,2,2,3,2,3]);
 
 import { permutationOne } from './Recursion/3.all-permutations/all-permutations-1';
-var items = permutationOne([1,2,3]);
+// var items = permutationOne([1,2,3]);
+
+var items = getAllPermutationsTwo([1,2,3])
 
 const opElement = document.getElementById("output");
 opElement.innerHTML  = items;
