@@ -14,7 +14,11 @@ import { getAllPermutationsTwo } from './Recursion/3.all-permutations/all-permut
 import { permutationOne } from './Recursion/3.all-permutations/all-permutations-1';
 // var items = permutationOne([1,2,3]);
 
-var items = getAllPermutationsTwo([1,2,3])
+// var items = getAllPermutationsTwo([1,2,3])
+
+import { nQueens } from './Recursion/N-Queens/n-queens';
+var items = nQueens(4)
+
 
 const opElement = document.getElementById("output");
 opElement.innerHTML  = items;
