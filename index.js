@@ -19,7 +19,7 @@ import { permutationOne } from './Recursion/3.all-permutations/all-permutations-
 // import { nQueensOne } from './Recursion/N-Queens/n-queens(1)';
 // var items = nQueensOne(4)
 
-import { nQueensTwo } from './Recursion/N-Queens/n-queesn(2)';
+import { nQueensTwo } from './Recursion/4.N-Queens/n-queesn(2)';
 var items = nQueensTwo(4);
 
 const opElement = document.getElementById("output");
