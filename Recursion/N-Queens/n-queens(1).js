@@ -1,4 +1,6 @@
 
+// using 2-D Array only
+
 function isSafe(row, col, board, n) {
     // we will be checking from right to left bcoz queens will be placed from left to right 
     const duprow = row;
@@ -62,7 +64,7 @@ function solve(col, board, ans, n) {
 
 }
 
-export function nQueens(n) {
+export function nQueensOne(n) {
     let ans = [];
     const s = Array(n).fill('.');
     let board = [];

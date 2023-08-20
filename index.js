@@ -16,9 +16,11 @@ import { permutationOne } from './Recursion/3.all-permutations/all-permutations-
 
 // var items = getAllPermutationsTwo([1,2,3])
 
-import { nQueens } from './Recursion/N-Queens/n-queens';
-var items = nQueens(4)
+// import { nQueensOne } from './Recursion/N-Queens/n-queens(1)';
+// var items = nQueensOne(4)
 
+import { nQueensTwo } from './Recursion/N-Queens/n-queesn(2)';
+var items = nQueensTwo(4);
 
 const opElement = document.getElementById("output");
 opElement.innerHTML  = items;
