@@ -1,8 +1,10 @@
 
 function isSafe(row, col, board, n) {
+    // we will be checking from right to left bcoz queens will be placed from left to right 
     const duprow = row;
     const dupcol = col;
 
+    // check upper diagonal
     while (row >=0 && col >=0) {
         if(board[row][col] === 'Q') {
             return false;
@@ -10,6 +12,8 @@ function isSafe(row, col, board, n) {
         row--;
         col--;
     }
+
+    // check row
 
     col = dupcol;
     row = duprow;
@@ -19,7 +23,7 @@ function isSafe(row, col, board, n) {
         }
         col--;
     }
-
+    // check lower diagonal
     row = duprow;
     col = dupcol;
     while(row < n && col >=0) {
