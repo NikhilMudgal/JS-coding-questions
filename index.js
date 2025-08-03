@@ -23,7 +23,7 @@
 // var items = nQueensTwo(4);
 
 import { secondLargest } from "./Arrays/second-largest";
-var items = secondLargest([4, 9, 0, 2, 8, 7, 1]);
+var items = secondLargest([10,20,8,9,3,5,20]);
 
 const opElement = document.getElementById("output");
 opElement.innerHTML  = items;
