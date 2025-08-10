@@ -22,8 +22,11 @@
 // import { nQueensTwo } from './Recursion/4.N-Queens/n-queesn(2)';
 // var items = nQueensTwo(4);
 
-import { secondLargest } from "./Arrays/second-largest";
-var items = secondLargest([10,20,8,9,3,5,20]);
+// import { secondLargest } from "./Arrays/second-largest";
+// var items = secondLargest([10,20,8,9,3,5,20]);
+
+import { countDigits } from "./warm-ups/number_of_digits";
+var items = countDigits(326);
 
 const opElement = document.getElementById("output");
 opElement.innerHTML  = items;
