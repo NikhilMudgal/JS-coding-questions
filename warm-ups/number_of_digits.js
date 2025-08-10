@@ -3,7 +3,7 @@ export function countDigits(num) {
     if(num === 0) {
         return 1;
     } else if(num < 0) {
-        num = Math.abs(num);
+        num = Math.abs(num);  // converting negative numbers to positive
     }
     while(num !==0) {
         num = Math.floor(num / 10);
